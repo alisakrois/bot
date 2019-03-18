@@ -1,0 +1,11 @@
+#constants for email message structures
+
+token: #sendgrid API key
+url: https://api.sendgrid.com/v3/mail/send
+port: 8099
+from_email: #example@example.com
+subject: #company name, etc
+subject_about_wrong_message: Wrong intern's message
+type_message: text/html
+channel: #your slack channel
+email_template: email_template.html
